@@ -7,6 +7,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{267D74
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "src\Server\Services\Services.csproj", "{EFCDD92F-18C3-4C0C-B138-8B5FD9C55ED6}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{31424D06-9A3B-4178-99E1-A0583FAE7ED5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTypes", "src\Common\DataTypes\DataTypes.csproj", "{C9E6EF39-8934-4C47-9B17-A935831DF43C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLayer", "src\Server\DataLayer\DataLayer.csproj", "{934440BF-4B7B-4D2B-A13C-0F0335C78710}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,11 +23,21 @@ Global
 		{EFCDD92F-18C3-4C0C-B138-8B5FD9C55ED6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EFCDD92F-18C3-4C0C-B138-8B5FD9C55ED6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EFCDD92F-18C3-4C0C-B138-8B5FD9C55ED6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9E6EF39-8934-4C47-9B17-A935831DF43C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9E6EF39-8934-4C47-9B17-A935831DF43C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9E6EF39-8934-4C47-9B17-A935831DF43C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9E6EF39-8934-4C47-9B17-A935831DF43C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{934440BF-4B7B-4D2B-A13C-0F0335C78710}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{934440BF-4B7B-4D2B-A13C-0F0335C78710}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{934440BF-4B7B-4D2B-A13C-0F0335C78710}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{934440BF-4B7B-4D2B-A13C-0F0335C78710}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{EFCDD92F-18C3-4C0C-B138-8B5FD9C55ED6} = {267D741A-67E4-42C5-B637-845CAAFDBA7A}
+		{C9E6EF39-8934-4C47-9B17-A935831DF43C} = {31424D06-9A3B-4178-99E1-A0583FAE7ED5}
+		{934440BF-4B7B-4D2B-A13C-0F0335C78710} = {267D741A-67E4-42C5-B637-845CAAFDBA7A}
 	EndGlobalSection
 EndGlobal
